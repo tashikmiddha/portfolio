@@ -77,7 +77,7 @@ Feel free to reach out for collaboration or feedback:
 
 💼 LinkedIn: https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/tashik-middha/
 
-🌐 Portfolio: https://yourportfolio.com
+🌐 Portfolio: https://tashikmiddha.github.io/portfolio/
 
 📝 License
 This project is open-source and available under the MIT License.
