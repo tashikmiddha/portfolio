@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tashik-portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="test.js"></script>
+    <style>
+    body{
+        background-color: rgb(10, 9, 41);
+        color:white;
+        font-family: "Poppins", sans-serif;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(4, 2, 24);
+    }
+    .right{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;   
+    }
+    .items{
+        margin:0  23px;
+        font-size: large;
+    }
+    .first{
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 0;
+        padding: 10px 0;
+    }
+    .left_section{
+        width:50%;
+        
+        margin:50px;
+        text-align: center;
+    }
+    .right_section{
+        width:60%;
+        margin:180px;
+        /* text-align: center; */
+        font-size: 2.7rem;
+    }
+    .left_section img{
+        height:500px;
+
+    }
+    .right_section span{
+        color: blue;
+    }
+    .items a{
+        text-decoration: none;
+        color: white;
+    }
+    .items a:hover{
+        
+        color: blue;
+        font-size: 1.04rem;
+    }
+    .left:hover{
+        color:blue;
+    }
+    main hr{
+        border:0;
+        background-color: blanchedalmond;
+        height:1px;
+        margin-bottom: 30px;
+
+    }
+    .second h3{
+        font-size: 2rem;
+    }
+    .grey{
+        color:grey
+    }
+    .second{
+        margin-left: 70px;
+        height:80vh;
+    }
+    .big{
+        font-size: 2rem;
+    }
+    .box{
+        background: white;
+        width:90vw;
+        height: 2px;
+        display: flex;
+        margin:56px 0;
+    }
+    .vertical{
+        background: white;
+        width:1px;
+        height: 90px;
+        margin:0 100px;
+    }
+    .im img{
+        position: relative;
+        width:230px;
+        right:90px;
+        height:180px;
+        margin-top: 90px;
+        margin-left: 100px;
+    }
+    .vertical .title{
+     position: relative;
+     top:90px;
+     width: 150px;
+    }
+    .vertical .describe{
+     position: relative;
+     top:120px;
+     width: 150px;
+     font-size: 9px;
+    }
+    footer{
+        background-color: rgb(5, 4, 22);
+        height:50vh;
+    }
+    .footer{
+        display: flex;
+        margin-left: 70px;
+        font-size: 1.3rem;
+        justify-content: space-around;
+    }
+    .footer ul{
+        list-style: none;
+    }
+    .text{
+        text-align: center;
+        font-size: 1.3rem; 
+        margin-top: 40px;
+    }
+    .butt{
+        background-color:white;
+        color:black;
+        border-radius: 30px;
+        font-size: 1.1rem;
+        font-style: bold;
+    }
+    .butt:hover{
+        background-color: blue;
+        font-size: 1.3rem;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"  style="font-size: xx-large;">Tashik Portfolio</div>
+            <div class="right">
+                <ul class="right">
+                    <li class="items" id="home"><a href="">Home</a></li>
+                    <li class="items" id="about"><a href="">About</a></li>
+                    <li class="items" id="services"><a href="">Services</a></li>
+                    <li class="items" id="project"><a href="">Projects</a></li>
+                    <li class="items" id="contact"><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="left_section">
+                <img src="images.png" alt="loding image">
+            </div>
+            <div class="right_section">Hi, My Name is <span>Tashik</span> and i am a <span id="element"></span>
+            <button class="butt">Download Resume</button>
+            <button class="butt">Visit github</button>
+        </div>
+        </section>
+        <hr>
+        <section class="second">
+            <span class="grey">what i Have done so far</span><br>
+            <span class="big" >Work Experiance</span>
+            
+            <div class="box">
+                <div class="im"><img src="image.png" alt="loading image"></div>
+                <div class="vertical">
+                 <div class="title">HTML DEVELOPER(2010-2015)</div>
+                 <div class="describe">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facere eum nam recusandae natus assumenda eligendi ipsam vitae fuga dolorum aut repellat.
+                 </div>
+                </div>
+                <div class="vertical">
+                    
+                    <div class="title">HTML DEVELOPER(2010-2015)</div>
+                 <div class="describe">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facere eum nam recusandae natus assumenda eligendi ipsam vitae fuga dolorum aut repellat.
+                 </div>
+                </div>
+                
+                <div class="vertical">
+                   
+                    <div class="title">HTML DEVELOPER(2010-2015)</div>
+                 <div class="describe">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facere eum nam recusandae natus assumenda eligendi ipsam vitae fuga dolorum aut repellat.
+                 </div>
+                </div>
+                <div class="vertical">
+                   
+                    <div class="title">HTML DEVELOPER(2010-2015)</div>
+                 <div class="describe">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facere eum nam recusandae natus assumenda eligendi ipsam vitae fuga dolorum aut repellat.
+                 </div>
+                </div>
+                <div class="vertical">
+                    
+                    <div class="title">HTML DEVELOPER(2010-2015)</div>
+                 <div class="describe">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facere eum nam recusandae natus assumenda eligendi ipsam vitae fuga dolorum aut repellat.
+                 </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer"id="secondPage">
+            <div class="f">
+              <h3>Tashik portfolio website</h3>
+            </div>
+            <div class="s">
+        <ul>
+            <li>url Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, totam.</li>
+            <li>url Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, totam.</li>
+            <li>url Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, totam.</li>
+            <li>url Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, totam.</li>
+        </ul>
+            </div>
+        </div>
+         <div class="text">
+            www.tashikmiddha.com |all rights reserved
+         </div>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Coder', 'Web Developer','Graphic Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+      
+</body>
+</html>

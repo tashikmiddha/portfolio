@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e616eb472b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container x">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header_text">
+                <p>Tech Enthusiast | Developer | Designer</p>
+                <h1>Hi ,I'm <span>Tashik</span><br>From India </h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about_col_1">
+                    <img src="user.png" alt="">
+                </div>
+                <div class="about_col_2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a passionate and driven Computer Science student at the National Institute of Technology, Delhi, with a deep interest in web development, data structures, and algorithms. I bring solid experience in Python, C++,Machine Learning ,Deep Learning , AI and web scraping, along with hands-on projects that reflect my enthusiasm for development, networking, and cybersecurity. Whether it's designing responsive front-ends, building intelligent systems, or automating tasks, I thrive on solving real-world problems through code.</p>
+                    <div class="tab_titles">
+                        <p class="tab_links active_links" onclick="open_tab('skills')">Skills</p>
+                        <p class="tab_links" onclick="open_tab('experience')">Experience</p>
+                        <p class="tab_links" onclick="open_tab('education')">Education</p>
+                    </div>
+                    <div class="tab_contents active_tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>C++, Python, C, PHP</li>
+                            <li><span>Web Development</span><br>HTML, CSS, JavaScript, Django</li>
+                            <li><span>Database</span><br>SQL, DBMS</li>
+                            <li><span>Cybersecurity</span><br>Ethical Hacking Basics, Kali Linux, Tails OS</li>
+                            <li><span>Web Scraping</span><br>Python automation for data extraction</li>
+                            <li><span>Libraries & Tools</span><br>NumPy, Pandas, OpenCV, Git, GitHub</li>
+                            <li><span>AI</span><br>Machine Learning,Deep Learning</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab_contents" id="experience">
+                        <ul>
+                            <li><span>2025(May)-current</span><br>IIT Ropar Project (IOT With Machine Learning)</li>
+                            <li><span>2023(December)-2024(March)</span><br>Magnify Brand (Website Development)</li>
+                            <li><span>2021-current</span><br>Competitive Programming:Solved 225+ problems on GeeksforGeeks && Solved 150+ problems on LeetCode</li>
+                            <li><span>2021-current</span><br>Self-Driven Developer : Independently developed multiple real-world projects using Python, OpenCV, Machine Learning and web technologies.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab_contents" id="education">
+                        <ul>
+                            <li><span>2023 – Present</span><br>B.Tech in Computer Science & Engineering | National Institute of Technology (NIT), Delhi | CGPA: 7.8</li>
+                            <li><span>2021 – 2023</span><br>Senior Secondary – Mathematics Stream | Prince Academy, Sikar | Score: 94%</li>
+                            <li><span>2021 – 2023</span><br>JEE Percentile: 99.2</li>
+                            <li><span>2020</span><br>High School :New Era Central School | Score: 94.6%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </dib>
+        <!-- Services -->
+        <div id="services">
+            <div class="container">
+                <h1 class="subtitle">My Services</h1>
+                <div class="services_list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Full Stack Web Development</h2>
+                        <p>Crafting responsive and functional websites using modern frontend and backend technologies.</p>
+                        <a href="https://github.com/tashikmiddha?" target="_blank">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>Python Automation & Scripting</h2>
+                        <p>Building efficient scripts for automation, data extraction, and file handling.</p>
+                        <a href="https://github.com/tashikmiddha?" target="_blank">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Machine Learning & AI Tools</h2>
+                        <p>Developing simple ML models and tools like AI assistants and Robospeakers.</p>
+                        <a href="https://github.com/tashikmiddha?" target="_blank">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- portfolio -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle">My Work</h1>
+                <div class="work_list">
+                    <div class="work">
+                        <img class="w1" src="w1.png" alt="">
+                        <div class="layer">
+                            <h3>Python & OpenCV Projects</h3>
+                            <p>A suite of projects built using Python and OpenCV, focused on solving real-life problems through automation, AI-based interaction, and everyday utilities.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="w2.png" alt="">
+                        <div class="layer">
+                            <h3>Web Development Projects </h3>
+                            <p>Frontend and full-stack development projects that demonstrate strong skills in HTML, CSS, JavaScript, and backend integration using PHP and Django, including calculators, clocks, and professional landing pages.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="w3.png" alt="">
+                        <div class="layer">
+                            <h3>DBMS Project </h3>
+                            <p>A structured and scalable database application designed to manage product inventories efficiently, using core DBMS principles and SQL for real-time data handling.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/tashikmiddha?" class="btn">Show More</a>
+            </div>
+        </div>
+
+        <!-- contact -->
+
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact_left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> tashikmiddha@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 8824780800</p>
+                        <div class="social_icons">
+                            <a href="https://github.com/tashikmiddha?" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/tashikmiddha_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://x.com/MiddhaTashik" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/tashik-middha/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://leetcode.com/u/tashikmiddha/" target="_blank"><i class="fa-solid fa-code"></i></a>
+                        </div>
+                        <a href="https://docs.google.com/document/d/12atTH7xr0vvDGo1uLbjacVFT7E7OLzwsM01EDkp5wWQ/edit?tab=t.0" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact_right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="your name" required>
+                            <input type="text" name="Email" placeholder="your email" required>
+                            <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+                <div class="copy_right">
+                    <p>Copy right <i class="fa-solid fa-copyright"></i> Tashik.Made by Tashik middha</p>
+                </div>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab_links");
+            var tabcontents = document.getElementsByClassName("tab_contents");
+            function open_tab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active_links");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active_tab");
+                }
+                event.currentTarget.classList.add("active_links");
+                document.getElementById(tabname).classList.add("active_tab");
+            }
+        </script>
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemeu.style.right = "0";
+            }
+            function closemenu() {
+                sidemeu.style.right = "-200px";
+            }
+
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyqFjAvNXcmC9hnI9DwXwTiW65Dg7A6qBQI59pwNp8jJXsZUrJKZgaorbDkaj0zmsYY/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Message Sent Successfully"
+                        setTimeout(function () {
+                            msg.innerHTML = ""
+                        }, 5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+
+</html>
