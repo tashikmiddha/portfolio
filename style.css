@@ -31,7 +31,7 @@ nav{
     flex-wrap: wrap;
     background-color: #000000;
     position: fixed;
-    width: 95%;
+    width: 93%;
     z-index: 23;
 }
 nav ul li{
