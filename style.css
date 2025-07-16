@@ -24,13 +24,14 @@ html{
     padding: 2px 6%;
 }
 nav{
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: #000000;
     position: fixed;
-    width: 90%;
+    width: 95%;
     z-index: 23;
 }
 nav ul li{
@@ -355,6 +356,7 @@ nav .fa-solid{
     nav .fa-solid{
         display: block;
         font-size: 25px;
+        margin-left: 5px;
     }
     nav ul{
         background: #ff004f;
@@ -373,8 +375,8 @@ nav .fa-solid{
     }
     nav ul fa-solid
     {
-        position: absolute;
-        top: 25px;
+        position: relative;
+        top: 0px;
         left: 25px;
         cursor: pointer;
 
